@@ -1,0 +1,57 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+      <link href="style.css" rel="stylesheet">
+</head>
+<body>
+   <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+   <div id="form">
+     <form id="survey-form">
+      <div class="box">
+        <label for="name"id="name-label">Name : </label>
+        <input type="text" id="name" value="name" placeholder="Enter your name" required>
+      </div>
+      <div class="box">
+        <label for="email" id="email-label">Email :</label>
+        <input type="email" id="email" placeholder="Enter your email"required>
+      </div>
+      <div class="box">
+        <label for="number" id="number-label">Number :</label>
+        <input type="number" min="0" step="5" max="100" id="number" placeholder="Enter your number" required>
+      </div>
+      <div class="box">
+        Which option best describes your current role?
+        <select id="dropdown">
+          <option>Select your role</option>
+          <option>Student</option>
+          <option>full time job </option>
+          <option>full time learner</option>
+        </select>
+      </div>
+      <div class="box">
+        Choose your game type:
+        <input type="radio" name="indoor-outdoor" value="indore">Outdoor 
+        <input type="radio" name="indoor-outdoor"value="outdoor">Indoor
+      </div>
+      <div class="box">
+        Choose your fav fruits:
+        <input type="checkbox" value="mango">mango
+        <input type="checkbox" value="orange"/>orange
+      </div>
+      <div class="box">
+        
+        <textarea>Enter your address....</textarea>
+      </div>
+     <div  id="sub">
+      <input type="submit" id="submit" >
+     </div>
+     </form>
+   </div>
+   <div id="vishu">
+    <h2>Made by @vishu_maurya with &#9829;</h2>
+   </div>
+
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+#title{
+    text-align: center;
+  }
+  #description{
+    text-align: center;
+  }
+  
+  #form{
+    margin: auto;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    max-width: 50%;
+    background-color: orange;
+    border-radius: 10px;
+    border: 5px black solid;
+  }
+  .box{
+    height: 2rem;
+    width: 30rem;
+    padding: 0.5rem;
+    background-color: rgb(223, 207, 177);
+    margin:0.5rem;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+  }
+  input{
+    background-color: antiquewhite;
+  }
+  #sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    /* background-color:goldenrod; */
+   
+  }
+  #submit{
+    background-color:greenyellow;
+    height: 2.5rem;
+    width:8rem;
+    border-radius: 1rem;
+    font-size: large;
+  }
+  #button:hover{
+    background-color: green
+    ;
+  }
+  #vishu{
+    background-color: orange;
+    padding: 1rem;
+    margin: 1rem 0 1rem 0;
+    height: 3rem;
+    width: 100%;
+    text-align: center;
+  }
